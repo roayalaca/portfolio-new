@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@Roayalaca</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./assets/main.js"></script>
+    <!-- Esto es para linkear el archivo html con java script y continuar con la animación -->
+</head>
+<body class="darkTheme">
+    ☀️
+    🌑
+    <i class='iconShowMenu bx bx-menu'></i>
+    
+    <article class="portada0">
+        <nav class="navbar">
+            <span><a href=""></a></span>
+            <ul class="navbar__menu .navbar__menu--show">
+                <li><a class="link link--active" href="#home">Main</a></li>
+                <li><a class="link " href="#about">About me</a></li>
+                <li><a class="link" href="#skills">Skills</a></li>
+                <li><a class="link" href="#portfolio">Portfolio</a></li>
+                <li><a class="link" href="#contact">¡Contact me!</a></li>
+                <!-- Con estos al dar clic a cada cosa del menú, se va a esa sección -->
+                <li class="iconTheme"> ☀️</li>
+            </ul>
+        </nav>
+    </article>
+
+    <main class="container__principal">
+
+    <div class="container">    
+      <section id="home"  class="hidden">
+        <section class="portada">
+          <h1>Rodrigo <span class="rojo">Ayala</span></h1>
+          <button class="boton"></button>
+          <p>Web programmer</p>
+        </section>
+      </section>
+    </div>
+
+    <!-- La clase Hidden se la agregué a home, about, portfolio y contact par comenzar con las animaciones-->
+    <section id="about" class="hidden">
+
+      <article class="portada2">
+            <section id="home" class="home">
+                  <div class="home__left">
+                      <img src="assets\image\profile.jpg" alt="profile photo" /> 
+                  </div>
+                  <div class="home__right">
+                    <div class="home__content">
+                      <h2 class="home__title">
+                        ¡Hi! My name is <span class="blue">Rodrigo Ayala</span> and I'm <span class="blue">a Web Full Stack Developer</span>.
+                      </h2>
+                      <p class="home__description">
+                        I think that one of the most important things 
+                        in life are to improve your professional abilities continously,
+                        but also to keep working on yourself so you can be your best 
+                        version, and that's what I've been doing during the last months. 
+                        I'm so proud to say that I've become a developer capable
+                        of creating great and challenging projects, that can be functional, 
+                        but at the same time: good looking.
+
+                        <br>
+                        <br>
+                        I want to invite you to check all my projects in this portfolio.
+                        A website that I've created specially for you. 
+
+                      </p>
+                      <a href="./ENGLISH-CV.pdf" target="_blank" class="CV">Give a look to my curriculum</a>
+                  </div>
+                </div>
+
+      </article>    
+      
+    </section>
+
+    <article class="portada3">  
+      <section id="skills" class="hidden">         
+          <h2 class="section__title"></h2>
+          <div class="about__container grid--container1">
+            <p class="about__description">
+              I studied biotechnology engineering, and during my years of exprience, 
+              I became capable of problem resolution
+              through metodologies of root cause, using an asertive and efective
+              leadership. In my experience, I've understood that the best way to take
+              decisions, is throughtout a critical and objective thinking.
+              Now, I've discovered a new passion: programming, and I'm so excited to 
+              continue my professional career into this new adventure.  
+            </p>
+
+            <div class="about__skills grid--container">
+              <div class="about__cards">
+                <!--Card 1 -->
+                <div class="about__card">
+                  <i class="bx bxl-html5"></i>
+
+                  <h3 class="about__card-title">HTML</h3>
+                  <p>Good code practices and excelent web structures</p>
+                </div>
+                <!--Card 2 -->
+                <div class="about__card">
+                  <i class="bx bxl-css3"></i>
+
+                  <h3 class="about__card-title">CSS</h3>
+                  <p>Striking designs, animations and responsiveness.</p>
+                </div>
+                <!--Card 3 -->
+                <div class="about__card">
+                  <i class="bx bxl-javascript"></i>
+
+                  <h3 class="about__card-title">JavaScript</h3>
+                  <p>Use of functions, loops, conditionals, arrays, strings, numbers, objects and arrays methods, DOM coding,</p>
+                </div>
+              </div>
+        
+
+              
+
+                  <div class="about__tags">
+                    <h3 class="about__tags-title">Habilidades</h3>
+                    <div class="about__tags-container">
+                      <span class="about__tag">Responsable</span>
+                      <span class="about__tag">Trabajo en equipo</span>
+                      <span class="about__tag">Creativo</span>
+                      <span class="about__tag">Puntual</span>
+                      <span class="about__tag">Proactivo</span>
+                      <span class="about__tag">Autodidacta</span>
+                      <span class="about__tag">Responsable</span>
+                      <span class="about__tag">Trabajo en equipo</span>
+                      <span class="about__tag">Creativo</span>
+                      <span class="about__tag">Puntual</span>
+                      <span class="about__tag">Proactivo</span>
+                      <span class="about__tag">Autodidacta</span>
+                    </div>
+                  </div>
+                
+                </div>
+              </div>
+        
+      </section>
+    </article>
+
+
+    
+      
+      
+    </section>
+    <article class="portada4">
+
+          <section id="portfolio" class="hidden">
+
+          
+              <h2 class="section__title"></h2>
+
+              <div class="projects__container grid--container">
+                <div class="projects__project">
+                  <div class="projects__inner grid--container">
+                    <div class="projects__image">
+                      <img src="assets/image/project1.jpg" alt="project 1" />
+                    </div>
+
+                    <div class="projects__info">
+                      <h2 class="projects__name">Tienda Bandhan</h2>
+                      <h2>¡My first e-commerce!</h2>
+                      <p class="projects__description">
+                          Tienda Bandhan is an spiritual store. In this store 
+                          you can get books, quartz, but also you can get some fashionable
+                          clothes and backpags. The main objective of this store is to 
+                          help people to find peace, love, bliss and to share some knowledge
+                          that can pull them up more to loving themselves.  
+                      </p>
+
+                      <div class="projects__buttons">
+                        <a href="https://twitter.com/" target="_blank">
+                          <button class="btn projects__button"  type="button">VER DEMO</button>
+                        </a>
+                        <a href="https://youtube.com/" target="_blank">
+                          <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                        </a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+      </section>
+    </article>
+
+
+    
+      <section id="contact" class="hidden">
+        <article class="portada5">
+            <h2 class="section__title"></h2>
+        
+            <div class="contact__container grid--container">
+              <div class="contact__info">
+        
+                <address class="contatc__info-data">
+                  <div class="contact__info-item">
+                    <i class='bx bxl-whatsapp'></i>
+        
+                    <span class="contact__info-number">
+                      <a
+                        href="https://wa.me/0000000000000?text=Tu%20Mensaje%20De%20Texto"
+                        target="_blank"
+                        >Enviar mensaje a WhatsApp</a
+                      >
+                    </span>
+                  </div>
+        
+                  <div class="contact__info-item">
+                
+        
+                    <span class="contact__info-mail">
+                      <a id="mail" href="roayalaca25@outlook.com"> roayalaca25@outlook.com </a>
+                    </span>
+                  </div>
+      
+              </div>
+        
+              <div class="contact__form">
+                <h3 class="contact__form-title">Contact me</h3>
+        
+                <form id="form" class="contact__form-container">
+                  <div class="contact__form-group">
+                    <label for="name" class="contact__form-label">Nombre</label>
+                    <input type="text" id="name" name="name" class="contact__form-input" />
+                  </div>
+        
+                  <div class="contact__form-group">
+                    <label for="subject" class="contact__form-label">Asunto</label>
+                    <input type="text" id="subject" name="subject" class="contact__form-input" />
+                  </div>
+        
+                  <div class="contact__form-group">
+                    <label for="message" class="contact__form-label">Mensaje</label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      cols="30"
+                      rows="10"
+                      class="contact__form-input"
+                    ></textarea>
+                  </div>
+        
+                  <button type="submit" class="btn contact__form-button">
+                    Enviar
+                  </button>
+                </form>
+              </div>
+            </div>
+        </article>    
+      </section>
+    
+
+
+                
+
+
+    </main>
+
+
+
+
+
+    <footer class="footer section">
+      <article class="portada6">
+        <div class="footer__container grid--container">
+          <div class="footer__info">
+            <h3 class="footer__title">Alan Rodrigo Ayala Campos</h3>  
+          </div>
+  
+          <div class="footer__social">
+  
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#"
+                  ><i class="bx bxl-facebook"></i
+                ></a>
+              </li>
+  
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+              </li>
+  
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#"
+                  ><i class="bx bxl-twitter"></i
+                ></a>
+              </li>
+  
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#"
+                  ><i class="bx bxl-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+        <p class="footer__copy">&copy; 2023,All rights reserved.</p>
+      </article>
+    </footer>
+
+      <script>
+        const formulario = document.querySelector('#form')
+        const sendForm = document.querySelector('#mail')
+      
+        formulario.addEventListener('submit', handleSubmit)
+      
+        function handleSubmit(e) {
+          e.preventDefault()
+          const form = new FormData(this)
+          sendForm.setAttribute('href', `mailto:roayalaca25@outlook.com?subject=${form.get('name')} - ${form.get('subject')}&body=${form.get('message')}`)
+          sendForm.click()
+        }
+      </script>
+
+    </body>
+</html>
+
+   
